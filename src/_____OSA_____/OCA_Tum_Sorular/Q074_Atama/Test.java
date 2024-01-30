@@ -9,10 +9,10 @@ class Test {
         System.out.println("Checking Card");
     }
 
-    public static void main(String[] args) {//yukarida yazildigi icin burayada atmak gerek Exception i
+    public static void main(String[] args){//yukarida yazildigi icin burayada atmak gerek Exception i
         Test ex = new Test();
         int cardNo = 12344;
-      //  ex.readCard(cardNo);   // line n2
+        //ex.readCard(cardNo);   // line n2
         ex.checkCard(cardNo);  // line n3
     }
 }

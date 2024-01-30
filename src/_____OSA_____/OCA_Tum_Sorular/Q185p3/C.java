@@ -2,14 +2,18 @@ package _____OSA_____.OCA_Tum_Sorular.Q185p3;
 //line n2
 
 
-import _____OSA_____.OCA_Tum_Sorular.Q185.A;
-import _____OSA_____.OCA_Tum_Sorular.Q185.p2.B;
+import _____OSA_____.OCA_Tum_Sorular.Q185_Import_Tekrar.p3.A;
+import _____OSA_____.OCA_Tum_Sorular.Q185_Import_Tekrar.B;
+
+
+
 
 // ust iki satır soruda yok
 public class C {
     public static void main(String[] args) {
         A o1= new A();
         B o2= new B();
+
     }
 }
 /*

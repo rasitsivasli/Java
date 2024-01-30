@@ -16,7 +16,7 @@ interface Readable extends Downloadable {   //line n1
 
 abstract class Book implements Readable {   //line n2
     public void readBook(){
-        System.out.println("Read Book");
+        System.out.println("Read Buch");
     }
 
 }
@@ -24,7 +24,7 @@ abstract class Book implements Readable {   //line n2
 class EBook extends Book {       //line n3
     public void download(){} //soruda bu kismi yok  //classin icine interface deki methodlari implement etmek zorundasin
     public void readBook() {
-        System.out.println("Read E-Book");
+        System.out.println("Read E-Buch");
     }
 
     public static void main(String[] args) {
@@ -37,7 +37,7 @@ class EBook extends Book {       //line n3
 What is result?
 A.Compilationfailsatlinen2.
 B.ReadBook
-C.ReadE-Book
+C.ReadE-Buch
 D.Compilationfailsatlinen1
 E. Compilation fails at line n3.
 */

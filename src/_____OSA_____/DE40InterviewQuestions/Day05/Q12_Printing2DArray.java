@@ -7,6 +7,11 @@ public class Q12_Printing2DArray {
 
     public static void main(String[] args) {
         String [][] arr = {{"abc","def","ghi"}, {"jkl","mno","prs","aaa","bbb"}};
+        for (String[] strings : arr) {
+            for (String string : strings) {
+                System.out.print(string + " ");
+            }
+        }
 
     }
 }

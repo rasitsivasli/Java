@@ -18,7 +18,7 @@ public class MusteriEkle {
 
             try {
                 System.out.println("Bitirmek için X'e basınız.");
-                System.out.println(musteriSayac + ".Musteri icin bilgileri giriniz.");
+                System.out.println(musteriSayac + ".A_Satis icin bilgileri giriniz.");
                 System.out.print("İsim Soyisim : ");
                 String str = scan.nextLine();
                 if (str.equalsIgnoreCase("X")) {

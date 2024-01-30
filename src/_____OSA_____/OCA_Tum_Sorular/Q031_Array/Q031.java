@@ -4,7 +4,8 @@ public class Q031 {
 		// Given The Code Fragment
 		int array1 [] = {1, 2, 3};  		// 1 2 3 
 		int array2 [] = new int[5]; 	// 0 0 0 0 0 
-		array2 = array1;						// 1 2 3     (not 1 2 3 null null)
+		array2 = array1;						// 1 2 3 // burada sona 0 lar gelmez
+		                                        // burada diger esitleme yapilmis.    (not 1 2 3 null null)
 		for (int i : array2) {
 			System.out.print(i + " ");
 		}

@@ -40,7 +40,7 @@ public class Adres {
 
     @Override
     public String toString() {
-        return "Kisiler{" +
+        return "B_Musteriler{" +
                 "mahalle='" + mahalle + '\'' +
                 ", cadde='" + cadde + '\'' +
                 ", no=" + id +

@@ -8,8 +8,9 @@ public class Q37_2 {
 		int count = 0;
 		for (int e : data) {
 			if (e !=key) {
-				count++;
-				continue;
+				continue;// contunie nin altinda birsey olursa CTE hatasi verir
+				//count++;
+
 			}
 		}
 		System.out.println(count + " Found");

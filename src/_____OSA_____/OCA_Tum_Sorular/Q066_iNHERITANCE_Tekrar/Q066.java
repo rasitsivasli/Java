@@ -9,9 +9,9 @@ abstract class C2 implements I {
     }
 }
 class C1 extends C2 {
-  public void displayI() {
-      System.out.print("C1");
-  }
+    public void displayI() {
+        System.out.println("Concret sinif");
+    }
 }
 
 public class Q066 {

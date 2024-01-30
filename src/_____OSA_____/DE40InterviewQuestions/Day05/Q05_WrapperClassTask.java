@@ -10,11 +10,20 @@ public class Q05_WrapperClassTask {
     // ve bu int'nin iki katını döndürür
     // bu yöntemi wrapper sınıfıyla overload et : Integer
     public static void main(String[] args) {
-       ;
+        int sayi = 5;
+        Integer sayiInteger = 5;
+        int ikiKati = carp(sayi);
+        int dortKatiInteger = carp(sayiInteger);
+        System.out.println("iki Kati = " + ikiKati);
+        System.out.println("dort Kati = " + dortKatiInteger);
 
     }
 
-
-
+    private static int carp(int sayi) {
+        return sayi*2;
+    }
+    private static int carp(Integer sayi) {
+        return sayi*4;
+    }
 
 }

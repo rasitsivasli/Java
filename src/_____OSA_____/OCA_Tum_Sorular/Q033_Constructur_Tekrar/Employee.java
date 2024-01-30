@@ -6,6 +6,7 @@ public class Employee {
 	double salary;
 	Employee() {
 		//line1
+
 	}
 	public String toString() {
 		return name + ":" + contract + ":" + salary;	

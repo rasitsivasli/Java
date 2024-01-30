@@ -17,6 +17,11 @@ public class Q12_ExponentialNumber {
         System.out.println("Lutfen taban ve us giriniz :");
         int taban = scan.nextInt();
         int us = scan.nextInt();
+        int sonuc = 1;
+        for (int i = 0; i < us; i++) {
+            sonuc *= taban;
+        }
+        System.out.println("sonuc = " + sonuc);
 
 
     }

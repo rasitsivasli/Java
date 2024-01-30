@@ -4,7 +4,7 @@ public class Test {
 	public static void main(String[] args) {
 	
 		// line n1
-
+//Main Methot yok dikkat ( sadece a ve c calisir)
 
 	}
 }

@@ -9,7 +9,12 @@ public class Q10_OddIndexNumber {
         Scanner scanner = new Scanner(System.in);
         System.out.print("bir metin giriniz :");
         String str = scanner.nextLine();
-
+        String[] strDizi = str.split("");
+        StringBuilder yeniStr = new StringBuilder();
+        for (int i = 0; i < str.length(); i++) {
+            if (i % 2 != 0) yeniStr.append(strDizi[i]);
+        }
+        System.out.println(yeniStr.toString());
 
     }
 

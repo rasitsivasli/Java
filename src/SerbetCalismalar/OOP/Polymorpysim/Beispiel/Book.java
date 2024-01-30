@@ -4,12 +4,12 @@ public class Book {
     String type = "Masal";
     String name ;
     public void sayfa(){
-        System.out.println("Kitap 50 sayfa");
+        System.out.println("BookManager 50 sayfa");
     }
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "Buch{" +
                 "type='" + type + '\'' +
                 ", name='" + name + '\'' +
                 '}';

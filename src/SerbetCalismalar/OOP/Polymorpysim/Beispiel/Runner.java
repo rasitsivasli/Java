@@ -2,7 +2,7 @@ package SerbetCalismalar.OOP.Polymorpysim.Beispiel;
 
 public class Runner {
     public static void main(String[] args) {
-        Book book1 = new Book();// Book sinifindaki obje
+        Book book1 = new Book();// Buch sinifindaki obje
         book1.name="Seyir";
         book1.sayfa();
         System.out.println("book1 = " + book1);

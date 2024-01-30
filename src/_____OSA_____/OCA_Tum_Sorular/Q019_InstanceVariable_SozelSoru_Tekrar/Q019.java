@@ -1,6 +1,10 @@
 package _____OSA_____.OCA_Tum_Sorular.Q019_InstanceVariable_SozelSoru_Tekrar;
 
 public class Q019 {
+    public static void main(String[] args) {
+
+    }
+
     /*
     19.	Which three statements are true about the structure of a Java class? (Choose three.)
 

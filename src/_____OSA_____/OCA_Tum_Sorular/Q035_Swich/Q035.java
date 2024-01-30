@@ -2,17 +2,17 @@ package _____OSA_____.OCA_Tum_Sorular.Q035_Swich;
 
 public class Q035 {                           //cibss=== char int byte short string sadece kullanilir
     public static void main(String[] args) {
-//        boolean opt = true;
-//        switch (opt) { // switch does not work with  long, double, float and boolean
-//            case true:
-//                System.out.println("True");
-//                break;
-//            default:
-//                System.out.println("***");
-//        }
-//        System.out.println("Done");
-    }
-}
+        boolean opt = true;// long ve float sonuna f yada l old. icin double '.' li old. icin ve boolen deger koyamiyoruz
+   /*    switch (opt) { // switch does not work with  long, double, float and boolean
+           case true:
+                System.out.println("True");
+                break;
+           default:
+               System.out.println("***");
+      }
+       System.out.println("Done");
+    }*/
+    }}
 
 //Which modification enables the code fragment to print TrueDone?
 //A.	Replace line 5 With String opt = "true";Replace line 7 with case "true":

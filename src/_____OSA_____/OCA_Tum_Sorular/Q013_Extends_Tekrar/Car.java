@@ -18,13 +18,8 @@ class Vehicle{
 		super(y); 
 		this.y =y;
 	}
-	public String toString() {
-		return super.x + ":" + this.y;
-
-	}
+	
 	// And given the code fragment
-	 // Vehicle y = new Car(20);  // in another version 20 is deleted ==> 10:0
-	//		System.out.println(y);
 	 public static void main(String[] args) {
 		Vehicle y = new Car(20);  // in another version 20 is deleted ==> 10:0
 		System.out.println(y);

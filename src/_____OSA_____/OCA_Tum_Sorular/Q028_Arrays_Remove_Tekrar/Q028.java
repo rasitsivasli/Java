@@ -10,10 +10,11 @@ public class Q028 {
 		// given the code fragment
 		String[] arr = {"Hi", "How", "Are", "You"};
 		List<String> arrList = new ArrayList<>(Arrays.asList(arr));
-		if (arrList.removeIf(s -> {System.out.print(s);return s.length() <= 2;})) { // < 2
+		if (arrList.removeIf(s -> {System.out.print(s);
+			return s.length() <= 2;})) { // < 2
 			System.out.println(" removed"); //s causes compilation error
 		}
-		System.out.println("arrList = " + arrList);
+		//System.out.println("arrList = " + arrList);
 	}
 }
 //What is the result?

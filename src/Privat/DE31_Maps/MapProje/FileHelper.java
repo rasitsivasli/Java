@@ -60,8 +60,8 @@ public class FileHelper implements InterFile {
                 // line parçala, dizi ye al
 
 
-                // Kisiler kayit = new Kisiler(,,,,);
-              //  Runner.liste.add(kayit);
+                // B_Musteriler kayit = new B_Musteriler(,,,,);
+              //  B_RunnerMusteri.liste.add(kayit);
 
             }
             bReader.close();
@@ -73,7 +73,7 @@ public class FileHelper implements InterFile {
 
 
 
-        // listenin son elemanının  ID sini  Runner.adresSonID ye alalım
+        // listenin son elemanının  ID sini  B_RunnerMusteri.adresSonID ye alalım
         return liste;
     }
 }

@@ -18,7 +18,7 @@ public class C16_MapWithPOJO {
         }
         // 102 nolu id olan kaydı değiştirelim
         int dKey = 102;
-//        adr = new Kisiler();
+//        adr = new B_Musteriler();
 //        adr = hMap.get(dKey);
 //        adr.setCadde("YENI CADDE");
         // hMap.put(dKey,adr);

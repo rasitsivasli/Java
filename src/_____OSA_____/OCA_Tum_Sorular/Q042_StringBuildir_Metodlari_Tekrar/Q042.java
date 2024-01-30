@@ -7,7 +7,6 @@ public class Q042 {
 		sb.append("A");
 		sb.append("A");
 
-
 	}
 }
 /* 42.	Which statement will empty the contents of a StringBuilder variable named sb?

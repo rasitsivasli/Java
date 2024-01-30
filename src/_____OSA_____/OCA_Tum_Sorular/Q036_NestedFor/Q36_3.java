@@ -3,6 +3,9 @@ package _____OSA_____.OCA_Tum_Sorular.Q036_NestedFor;
 public class Q36_3 {
 
 	public static void main(String[] args) {
+		// Contunie ve Break sadece döngülerde kullanilir.
+		// Contunie atlamak icin , break bulunan döngüden cikartir.
+		// System.exit->> tüm programi termiante eder
 		String[] arr = {"A", "B", "C", "D"};
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]+ " " ); //1. arr[0] =String "A"

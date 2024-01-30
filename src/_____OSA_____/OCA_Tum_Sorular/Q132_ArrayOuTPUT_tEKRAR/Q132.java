@@ -5,7 +5,7 @@ public class Q132 {
     public static void main(String[] args) {
         int[][] arr = new int[2][];// burada yazilan 4 ün bir anlami yok cünkü saonrasinda eleman sayisi degisyor
         arr[0] = new int[]{1, 3, 5, 7,};
-        arr[1] = new int[]{1, 3, 5, 6, 7};
+        arr[1] = new int[]{1, 3};
         for (int[] a : arr) {
             for (int i : a) {
                 System.out.print(i + " ");

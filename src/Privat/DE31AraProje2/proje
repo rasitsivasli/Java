@@ -1,0 +1,26 @@
+Önceki araProje miz bir su tesisatç?s?n?n mü?teri kay?tlar?d?r,
+bu tesisatç? bu mü?terilerinin ihtiyaçlar?na göre hizmet vermektedir ve
+bu hizmet kar??l???nda para tahsil etmektedir.
+önceki projeye ek olarak
+yeni bir pojo olusturun alanlar:
+int satisId // olu?turaca??m?z dosyan?n kay?tlar?n? tutmak için(di?erinde oldu?u gibi)
+int musID // bu alan ise di?er (önceki dosyadaki id dir) çünkü yap?lan i?in kime yap?ld???
+    bu musID sayesine anala??labilir.
+String tarih; // bu alan locale date yard?m? ile otamatik doldurulsun(i?lemin yap?ld??? günün tarihi)
+String islem; // bu alan sucu ustan?n yapt??? i?lemi tan?mlayacak
+int tutar; // i?lemin tutar?
+int tahsilat; // ustan?n tahsil etti?i para, 100euro i? yap?lm?? 30 euro tahsil edilmi? ise
+        bunun anlam? mü?terinin 70 euro borcu var demektir
+boolean durum; // kay?t silme durumu için kullan?n, di?er dosyada oldu?u gibi // enum kullanal?m
+yeni classlara ihtiyac?n?z olacak
+-FileHizmet
+-?slemHizmet(InterIslem implement eder)
+-Hizmetler pojo class ?
+
+Bir ana menüden (önceki ve bu na alt menu olarak ) eri?ilebilir
+-tercihe ba?l? raporlar,
+-seçilen mü?terinin borç / alacak durumu
+-sucu ustan?n toplam sat?? miktar?
+-sucu ustan?n toplam alaça?? tutar
+-Mü?teriler hesap dökümü
+-Borçlu Mü?teriler

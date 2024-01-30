@@ -12,8 +12,16 @@ public class ElectricAccount{
     private double rate=0.07;
     private double bill;
     //line n1
+    public void addKWh(double kWh){
+        if(kWh>0){
+            this.kWh +=kWh;
+            setBill(this.kWh);
+        }
+    }
+    public void setBill(double kWh){
+        bill=kWh*rate;
+    }
 
-    public void addKWh(double kWh){}
 
 
 }}

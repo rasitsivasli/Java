@@ -7,10 +7,14 @@ abstract class Planet{
 }
 
 	 class Earth extends Planet{
-//		void revolve() {		// line n3
-//		 }
-		 protected void rotate() {		// line n4
+
+		 void rotate() {
+
 		 }
+
+		 public void revolve() {		// line n3
+		 }
+
 }
 
 //	 Which two modifications, made independently, enable the code to compile? (Choose two.) 

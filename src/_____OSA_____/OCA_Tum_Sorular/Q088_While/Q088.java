@@ -3,6 +3,7 @@ public class Q088 {
     public static void main(String[] args) {
         int x = 6;
         while (isAvailable(x)) {
+            --x;
             System.out.print(x);
 
         }

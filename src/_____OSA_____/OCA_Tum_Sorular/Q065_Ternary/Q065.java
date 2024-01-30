@@ -2,7 +2,7 @@ package _____OSA_____.OCA_Tum_Sorular.Q065_Ternary;
 
 public class Q065 {
 	public static void main(String[] args) {
-        float var1 = 124_56.02f;
+        float var1 = (124_56.01f<=123_45.00)? 12_456: 124_56.02f;
         float var2 = var1 + 1024;
         System.out.print(var2);
     }

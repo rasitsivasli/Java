@@ -1,6 +1,6 @@
 package FarukHocaYeni.DE33_FileReaderWriter.NotDefteri;
 
-import Privat.Projeler.ProjeAdresSunum.KendiYaptigim.FileHelper;
+import Privat.Projeler.AdresKendiYaptigim.FileHelper;
 
 import java.io.IOException;
 

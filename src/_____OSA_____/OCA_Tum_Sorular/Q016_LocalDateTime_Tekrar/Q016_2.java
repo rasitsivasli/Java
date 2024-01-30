@@ -9,7 +9,8 @@ public class Q016_2 {
 		LocalDateTime dt = LocalDateTime.of(2014, 7, 31, 1, 1);
 		dt.plusDays(30);  // assigned to dt
 		dt.plusMonths(1); // assigned to dt
-		System.out.println(dt.format(DateTimeFormatter.ISO_DATE));
+		System.out.println(dt.format(DateTimeFormatter.ISO_DATE));// Time ifadesi olmadigi icin saat ve dk yazilmayacak
+		//Atama yapmadigi icin bir etkisi yok
 	}
 }
 //What is the result?

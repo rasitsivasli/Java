@@ -32,7 +32,7 @@ public class Test {
 					          new Person("Charlie", 40),
 							  new Person("Smith", 38));
 		// Line n1
-		checkAge (iList, p-> p.getAge() > 30);
+		checkAge (iList, p-> p.getAge() > 40);
 // Which code fragment, when inserted at line n1, enables the code to print Hank?
 		
 //		checkAge (iList, () -> p.getAge() > 40);

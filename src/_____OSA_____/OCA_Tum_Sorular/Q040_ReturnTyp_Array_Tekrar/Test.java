@@ -1,18 +1,19 @@
 package _____OSA_____.OCA_Tum_Sorular.Q040_ReturnTyp_Array_Tekrar;
 
 public class Test {
-/* You are asked to create a method thet accepts an array of integers and returns
-the highest value from array.
- */
-//	public static void main(String[] args) {
-//		int numbers[] = {12, 13, 42, 32, 15, 156, 23, 51, 12};
-//		int[] keys = findMax(numbers);
-//	}
-//		/* Line 1 */ {
-//		int[] keys = new int [3];
-//		/* code goes here */
-//		return keys;
-//		}
+//You are asked to create a method thet accepts an array of integers and returns
+//the highest value from array.
+
+/*	public static void main(String[] args) {
+		int numbers[] = {12, 13, 42, 32, 15, 156, 23, 51, 12};
+		int[] keys = findMax(numbers);
+	}
+    ///    line1{
+		int[] keys = new int [3];
+		*//* code goes here *//*
+		return keys;
+		}
+*/
 }
 
 //Which method signature do you use at line n1?

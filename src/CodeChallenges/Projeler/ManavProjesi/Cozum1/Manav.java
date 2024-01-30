@@ -22,7 +22,7 @@ public class Manav {
      * 2. Adim : Baska bir urun almak isteyip istemedigini sor.
      *            istemiyorsa toplam miktari goster, istiyorsa tekrar urun sectir.
      *            Bu islemi alisverisi bitirmek isteyene kadar tekrarla.
-     * 3. Adim : Musteri her urun sectiginde, aldigi urunun fiyatini toplam fiyata ekle.
+     * 3. Adim : A_Satis her urun sectiginde, aldigi urunun fiyatini toplam fiyata ekle.
      * 4. Adim : Alisveris bitince toplam odemesi gereken tutari goster.
      *
      */

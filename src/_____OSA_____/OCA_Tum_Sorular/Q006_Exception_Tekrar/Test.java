@@ -1,17 +1,23 @@
 package _____OSA_____.OCA_Tum_Sorular.Q006_Exception_Tekrar;
 
+import java.io.IOException;
+
 class X {
 
-    public void printFileContent() {
+    public void printFileContent() throws IOException {
 
-        //throw new IOException(); bu satiri düzelt
+        throw new IOException();  //bu satiri düzelt
     }
 }
 public class Test {
 
     public static void main(String[] args) {
         X xobj = new X();
-        xobj.printFileContent();
+        try {
+            xobj.printFileContent();
+        } catch (IOException e) {
+            System.out.println("Main bitti");
+        }
 
     }
 }

@@ -16,7 +16,7 @@ class Animal{
 
  		WildAnimal (String bounds) {
 		// Line 1
-
+			super();
 			this.bounds = bounds;
 
 		}

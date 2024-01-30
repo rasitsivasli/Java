@@ -11,10 +11,26 @@ public class Q02_CreateRandomList_SetList {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
 
+        randomEkle(list);
+        System.out.println("list = " + list);
+
 
     }
 
+    private static void randomEkle(ArrayList<Integer> list) {
+        boolean ciftSayilar = false;
+        for (int i = 0; i < 10; i++) {
+            int random = (int) (Math.random() * 20);
+            if (random % 2 == 0) {
+                random = 111;
+                list.add(random);
+                ciftSayilar = true;
+            } else list.add(random);
+        }if (!ciftSayilar){
+            System.out.println("Listede Cift sayi yoktur");
+        }
+        if (!list.contains(111)) System.out.println("Listede Cift sayi yoktur");// 2. cozum olarak boolean kullandik
 
-
+    }
 
 }

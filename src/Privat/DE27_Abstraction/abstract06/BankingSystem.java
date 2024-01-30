@@ -25,7 +25,7 @@ public class BankingSystem {
         System.out.print("Telefon No: ");
         String telNo = okuBilgi.nextLine();
 
-        System.out.print("Kisiler: ");
+        System.out.print("B_Musteriler: ");
         String adres = okuBilgi.nextLine();
 
         int employeeNo = 1; // işlemi yapan çalışanın sicilnosu

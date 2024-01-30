@@ -1,5 +1,12 @@
 package _____OSA_____.DE40InterviewQuestions.Day03;
 
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+
+
 public class Q01_UniqeArray {
     /*
      * Verilen array deki tekrar eden sayilari, ilki haric silip, tekrarsiz
@@ -9,9 +16,30 @@ public class Q01_UniqeArray {
      * OUTPUT : [1, 2, 3, 4, -2, 5, 6, 8, 7, 9, 10]
      */
     public static void main(String[] args) {
-        int [] arr = {1,2,2,3,1,4,2,-2,5,6,8,7,5,6,-2,9,3,10};
+        int[] arr = {1, 2, 2, 3, 1, 4, 2, -2, 5, 6, 8, 7, 5, 6, -2, 9, 3, 10};
+
+        // 2. cozum
+        HashSet<Integer> set = new HashSet<>();
+        for (int j : arr) {
+            set.add(j);
+        }
+        System.out.println("set = " + set);
+
+        // 1. cozum
+        arr = Arrays.stream(arr).distinct().toArray();// distinct unig hale getirir
+        System.out.println(Arrays.toString(arr));
 
 
+        //3. cozum
+        List<Integer> list = new ArrayList<>(Arrays.stream(arr).boxed().toList());
+
+        for (int i = 0; i < list.size(); i++) {
+            int siradakiEleman = list.get(i);
+            list.removeIf(p->p==siradakiEleman);
+            list.add(i,siradakiEleman);
+        }
+        System.out.println(list);
     }
+   ///    4.yol
 
 }

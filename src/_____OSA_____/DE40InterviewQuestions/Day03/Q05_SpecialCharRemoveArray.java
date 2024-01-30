@@ -25,9 +25,21 @@ public class Q05_SpecialCharRemoveArray {
     //parse int : primitive return eder
     //value Of : non primitive return eder
     public static void main(String[] args) {
-        ArrayList <String>arrList = new ArrayList<String>(Arrays.asList("$13", "$15", "$20"));
+        ArrayList<String> arrList = new ArrayList<String>(Arrays.asList("$13", "$115", "$20"));
+        System.out.println(arrList.stream().map(p -> Integer.parseInt(p.replace("$", ""))).reduce(Integer::sum));
+
+        System.out.println("getsum(arrList) = " + getsum(arrList));
 
     }
 
-
+    private static int getsum(ArrayList<String> arrList) {
+        int sum = 0;
+        for (int i = 0; i < arrList.size(); i++) {
+            sum += Integer.parseInt(arrList.get(i).substring(1));
+        }
+        if (sum < 0) return -1;
+        else return sum;
+    }
 }
+
+

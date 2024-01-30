@@ -4,7 +4,7 @@ public class Q078 {
 	public static void main(String[] args) {
 		String str1="Java";
 		String []str2= {"J","a","v","a"};
-		String str3="";
+		String str3="Ja"+"va";
 		for (String str:str2) {
 			str3=str3+str;
 		}

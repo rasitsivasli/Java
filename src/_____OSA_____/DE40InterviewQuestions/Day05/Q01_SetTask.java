@@ -1,6 +1,6 @@
 package _____OSA_____.DE40InterviewQuestions.Day05;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Q01_SetTask {
 
@@ -19,6 +19,26 @@ public class Q01_SetTask {
     // ve tüm karakterleri sete ekleyin
 
     public static void main(String[] args) {
-        ArrayList<Integer> arrList = new ArrayList<>();
+        ArrayList<Integer> arrList = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+        Set<Integer> set = new HashSet<>();
+
+        metot1(arrList, set);
+
+        Set<Character> setChar = new HashSet<>();
+        metod2(setChar, 'a', 'b', 'c', 'd');
+    }
+
+    private static void metod2(Set<Character> setChar, char... charDizisi) {
+
+        for (char c : charDizisi) {
+            setChar.add(c);
+        }
+        System.out.println("setChar = " + setChar);
+    }
+
+    private static void metot1(ArrayList<Integer> arrList, Set<Integer> set) {
+
+        set.addAll(arrList);
+        System.out.println("set = " + set);
     }
 }

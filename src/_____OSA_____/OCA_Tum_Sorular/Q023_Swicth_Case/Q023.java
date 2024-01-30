@@ -4,7 +4,7 @@ public class Q023 {
 
 	public static void main(String[] args) {
 		char colorCode = 'y';
-		switch (colorCode) {
+		switch (colorCode) {// swicht de boolen , float, long , double
 		case 'r':
 			int color = 100;
 			break;

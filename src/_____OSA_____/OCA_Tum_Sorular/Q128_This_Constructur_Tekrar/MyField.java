@@ -6,6 +6,7 @@ public class MyField {
     public void doStuff(int x, int y) {
         x = x;
         y = this.y;
+        System.out.println("y = " + y);
 
 
     }

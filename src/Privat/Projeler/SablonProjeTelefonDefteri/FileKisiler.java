@@ -13,7 +13,7 @@ public class FileKisiler implements InterFile {
             try {
                 file.createNewFile();
             } catch (IOException e) {
-                System.out.println("FileKisiler 10 -> dosya bulunamadı : "+e);
+                System.out.println("B_FileMusteriler 10 -> dosya bulunamadı : "+e);
             }
         }
         try {
@@ -61,7 +61,7 @@ public class FileKisiler implements InterFile {
             /* bu metot dosyadanOku() 1 kez çağrılıyor, aksi halde dolu Map e veriler,
             bir kez daha yüklenmiş olurdu. eğer bu metot birden fazla çağrılması gerekecek ise,
             tüm verileri aldığımız için önce map i aşağıdaki şekilde sıfırlamalıydık
-            Runner.liste = new HashMap<>();
+            B_RunnerMusteri.liste = new HashMap<>();
             yukarıdaki anlatım hatalı (array list için doğru) map de key mantığı olduğu için üzerine
             yazar ve verinin dublicate(çift) olması engeller
              */
@@ -79,7 +79,7 @@ public class FileKisiler implements InterFile {
                 Runner.liste.put(id,kisi);
                 // en büyük id yi buluyoruz, çünki yeni kayıt eklerken bundan
                 // bir fazlasını id olarak vereceğiz, aksi halde proğramdan
-                // çıkıp tekrar giddiğimizde Runner.adresSonID 1 den başlar ve olay karış
+                // çıkıp tekrar giddiğimizde B_RunnerMusteri.adresSonID 1 den başlar ve olay karış
                 if (id>Runner.adresSonID) Runner.adresSonID=id;
             }
             bReader.close();
@@ -91,7 +91,7 @@ public class FileKisiler implements InterFile {
 
 
 
-        // listenin son elemanının  ID sini  Runner.adresSonID ye alalım
+        // listenin son elemanının  ID sini  B_RunnerMusteri.adresSonID ye alalım
 
     }
 }

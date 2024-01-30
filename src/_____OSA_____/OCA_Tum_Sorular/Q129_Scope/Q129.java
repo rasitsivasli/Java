@@ -2,9 +2,9 @@ package _____OSA_____.OCA_Tum_Sorular.Q129_Scope;
 
 public class Q129 {
 
-	//static int ans; //static yapilirsa ans class a ait olg icin ok boyle olursa cevap Answer =0;
-		public static void main(String[] args) {
 
+		public static void main(String[] args) {
+// int ans=0; //ans burada tanimlansaydi cevap Answer =0;
 	/*		try {
 				int num =10;
 				int div =0;

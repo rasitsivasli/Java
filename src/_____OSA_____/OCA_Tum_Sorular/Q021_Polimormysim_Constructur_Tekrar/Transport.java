@@ -2,11 +2,13 @@ package _____OSA_____.OCA_Tum_Sorular.Q021_Polimormysim_Constructur_Tekrar;
 
 class Vehicle {
 	Vehicle(){
-		System.out.println("Vehicle");
+		System.out.println("Parametreli Vehicle");
 	}
+
 }
 class Bus extends Vehicle{
 	Bus(){
+
 		System.out.println("Bus");
 	}
 }

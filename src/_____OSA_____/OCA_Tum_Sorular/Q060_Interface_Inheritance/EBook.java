@@ -18,17 +18,17 @@ class EBook extends Book { 								// line n3
 	// line n4
 
 }
-/* And given the code fragment:  Book book1 = new EBook(); book1.readBook();
+/* And given the code fragment:  Buch book1 = new EBook(); book1.readBook();
  * Which option enables the code to compile? 
  * 
 A. Replace the code fragment at line n1 with:
-	class Book implements Readable{
+	class Buch implements Readable{
 	
 B. At line ne insert:
 	public abtract void setBookMark();
 	
 B. Replace the code fragment at line n3 with:
-	abstract class EBook extensd Book{
+	abstract class EBook extensd Buch{
 	
 D. At line n4 insert:
 	public void setBookMark(){}

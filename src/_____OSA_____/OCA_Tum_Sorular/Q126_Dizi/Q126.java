@@ -6,7 +6,9 @@ public class Q126 {
 		int array[] = {10, 20, 30, 40, 50};
 		int x = array.length;
 		// line n1
-
+		while (x > 0) {
+			System.out.print(array[--x]);
+		}
 	}
 }
 /*

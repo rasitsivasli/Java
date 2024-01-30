@@ -22,7 +22,7 @@ public class test {
 
         // print list
         for (int i : Numbers) {
-            System.out.println(i);
+            System.out.print(i+" ");
         }
     }
 }

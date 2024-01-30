@@ -69,7 +69,7 @@ public class IslemKisiler {
                 if (adSoyad.equals("*")) adSoyad = kisi.getAdSoyad();
                 /* bunun yerine alttaki de olur ancak burumda , alttaki maddeler
                 içinde bu yapılmalı ve
-                 kisi = new Kisiler(id,adSoyad,adres,eMail,tel, kisi.isDurum());
+                 kisi = new B_Musteriler(id,adSoyad,adres,eMail,tel, kisi.isDurum());
                  satırı kaldırılmalı
                 if (!adSoyad.equals("*")) kisi.setAdSoyad(adSoyad);
                */

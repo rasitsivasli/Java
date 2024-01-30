@@ -8,6 +8,9 @@ public class Q04_PrintVowelsOfString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Bir string giriniz: ");
+        String str = scanner.nextLine();
+        String sesliHarfler = str.replaceAll("[^aeiouAEIOU]", "");
+        System.out.println("sesliHarfler = " + sesliHarfler);
 
     }
 }

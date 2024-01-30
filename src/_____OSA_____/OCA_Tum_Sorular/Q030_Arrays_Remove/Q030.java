@@ -12,7 +12,7 @@ public class Q030 {
 		names.add("Rick");
 		names.add("Bran");
 
-		if (names.remove("Bran")) {
+		if (names.remove("Bran")) {// burada hem siliyor, hemde true gönderiyor ve then bloguna girer
 			names.remove("Jon");
 		}
 		System.out.println(names);

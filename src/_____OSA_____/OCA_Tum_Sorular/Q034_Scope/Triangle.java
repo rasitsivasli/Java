@@ -11,7 +11,7 @@ public class Triangle {
 			p = 0.5;
 			area = p * b * h;		// line n2
 		}
-		System.out.println("Area is " + area);
+		System.out.println("Area is " + area);// static old. icin hata vermiyor
 	}
 }
 //
