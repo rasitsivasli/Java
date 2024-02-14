@@ -16,5 +16,6 @@ public class Task1 {
         sinifListesi=isimler;
         System.out.println("sinifListesi = " + Arrays.toString(sinifListesi));
         System.out.println("sinifListesi = " + Arrays.toString(sinifListesi));
+        System.out.println("sinifListesi = " + Arrays.toString(sinifListesi));
     }
 }
