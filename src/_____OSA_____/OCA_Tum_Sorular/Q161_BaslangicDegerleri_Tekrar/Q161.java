@@ -3,7 +3,7 @@ package _____OSA_____.OCA_Tum_Sorular.Q161_BaslangicDegerleri_Tekrar;
 public class Q161 {
 
 	public static void main(String[] args) {
-//		Boolean  avalible =true;
+		boolean  avalible =true;
 //		String tmAuthor=author,author="MC Donald";
 		Double price =200D;
 		Integer pages =20;

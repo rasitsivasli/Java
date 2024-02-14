@@ -4,7 +4,10 @@ public class Q059 {
 	public static void main(String[] args) {
 		double discount = 0;
 		int qty = Integer.parseInt(args[0]);
+		System.out.println("qty = " + qty);
 		// line n1
+		if (qty >= 90) {discount = 0.5;}
+		if (qty > 80 && qty < 90) {discount = 0.2;}
 	}
 //	And given the requirements:
 //	-	If the value of the qty variable is greater than or equal to 90,

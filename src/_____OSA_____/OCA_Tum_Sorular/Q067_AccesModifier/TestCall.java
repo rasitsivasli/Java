@@ -1,24 +1,26 @@
 package _____OSA_____.OCA_Tum_Sorular.Q067_AccesModifier;
 
-public class Q067 {
 
-}
 class Caller {
-   private   void init() {
-       //private cannot access
-        System.out.println("Initialized"); 
+    private void init() {
+        //private cannot access
+        System.out.println("Initialized");
     }
-     private void start() {
+
+    private void start() {
         init();
         System.out.println("Started");
     }
+
 }
 
-class TestCall {
+public class TestCall {
     public static void main(String[] args) {
         Caller c = new Caller();
-//        c.start();
-//       c.init();
+       /* c.start();
+        c.init();*/
+
+
     }
 }
 

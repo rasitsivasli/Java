@@ -8,7 +8,8 @@ public class Q008 {
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.print(arr[i][j]+ " " );
                 if (arr[i][j].equals("B")) {
-                    continue; //bir etkisi yok
+                    //continue; //bir etkisi yok
+                    break;
                 }
             }
             continue;

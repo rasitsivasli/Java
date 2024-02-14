@@ -1,7 +1,7 @@
 package _____OSA_____.OCA_Tum_Sorular.Q176_AbstracktClassUndAbstracktMethod_Tekrar;
 
 abstract class Robot implements Speakable {
-	public abstract void process(); // biz abstract yaptık
+	public  void process(){} // biz abstract yaptık
 	//Bu method abstract olmali cunki abstract class must have abstract method
 							//or non abstract ama body olmali
 }                           //public abstract void process();--> Helping... Done print eder(answer

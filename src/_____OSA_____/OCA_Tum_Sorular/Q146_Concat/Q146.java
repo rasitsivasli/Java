@@ -1,12 +1,13 @@
 package _____OSA_____.OCA_Tum_Sorular.Q146_Concat;
 
-import java.util.Arrays;
-
 public class Q146 {
 	public static void main(String[] args) {
 		String[] strs = new String[2];
-		System.out.println("strs.toString() = " + Arrays.toString(strs));
 		int idx = 0;
+		for (String s : strs) {
+			strs[idx].concat("element "+idx);
+			idx++;
+		}
 
 		for (idx = 0; idx < strs.length; idx++) {
 			System.out.println(strs[idx]);

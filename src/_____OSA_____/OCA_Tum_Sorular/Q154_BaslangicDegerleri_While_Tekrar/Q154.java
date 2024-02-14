@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Q154 {
     public static void main(String[] args) {
         ArrayList myList = new ArrayList();
-        String[] myArray;
+        String[] myArray= {};
         try {
             while (true) {                  //infinite doner. Memoriden kaynaklanan mainde bir hata olusur. Memoryoverflow da hata yani.
                 myList.add("My String");
@@ -14,8 +14,10 @@ public class Q154 {
             System.out.println("Cought a RuntimeException");
         } catch (Exception e) {
             System.out.println("Cought an Exception");
+        }finally {
+            System.out.println("Ready to use");
         }
-        System.out.println("Ready to use");
+
     }
     //Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 

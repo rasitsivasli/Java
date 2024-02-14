@@ -13,7 +13,9 @@ public class Q063 {
 	}
 	class ReportTool extends Tool {
     	// public eklendi
-
+		public void export() {
+			System.out.println("RTool::export");
+		}
 
 	    public static void main(String[] args) {
 	        Tool aTool = new ReportTool();

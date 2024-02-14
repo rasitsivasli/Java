@@ -2,11 +2,12 @@ package _____OSA_____.OCA_Tum_Sorular.Q213_AbstracktClass;
 
 abstract class Toy {
     int price;
-    //line n1;
-   // public Toy getToy(){
-       //return new Toy();
-    }
 
+    //line n1;
+   final public void getToy() {
+
+    }
+}
 /*
 A)  public static void insertToy(){
         //  code goes here

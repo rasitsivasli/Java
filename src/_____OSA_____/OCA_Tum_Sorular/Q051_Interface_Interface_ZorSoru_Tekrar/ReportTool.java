@@ -2,6 +2,7 @@ package _____OSA_____.OCA_Tum_Sorular.Q051_Interface_Interface_ZorSoru_Tekrar;
 
 interface Exportable{
 	  void export();
+
 }
 class Tool implements Exportable{
 	//public yerinde protected var normalde

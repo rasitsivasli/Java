@@ -4,8 +4,8 @@ package _____OSA_____.OCA_Tum_Sorular.Q181_1;
 import java.io.IOException;
 
 
-class A {
-	public static void main(String fileName) throws IOException {
+class C {
+	public  void main(String fileName) throws IOException {
 
 	}
 

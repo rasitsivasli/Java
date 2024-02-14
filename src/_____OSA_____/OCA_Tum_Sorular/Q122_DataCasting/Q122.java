@@ -7,7 +7,7 @@ public class Q122 {
 		Integer s2 = 400;
 		String s3 = ""+(s1+s2);//line n1
 
-		Long s4 = (long)s1+s2; //line n2
+		Long s4 = (long) (s1+s2); //line n2
 		System.out.println("Sum is " + s4);
 
 		}

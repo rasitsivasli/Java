@@ -2,7 +2,7 @@ package _____OSA_____.OCA_Tum_Sorular.Q113_Static_Inheritance_Tekrar_SoruHtali;
 
 public class StockRoom {
     static int stock=10;//statici ekledim
-    static int qty; //ben ekledim
+    static int qty=5; //ben ekledim
     public void purchase(int qty){
     	stock +=qty;
     	}

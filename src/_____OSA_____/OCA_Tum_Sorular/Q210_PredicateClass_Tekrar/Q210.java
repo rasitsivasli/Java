@@ -7,12 +7,14 @@ public class Q210 {
         Predicate<Integer> p = (n) -> n % 2 == 0;
         //insert code here
 
+
+        Boolean s=p.test(100);// A sikki buydu
+        System.out.println(s);
     }
 }
 
 /* which code snippet at line 9 prints true?
-A.  Boolean s=p.apply(101);
-    System.out.println(s);
+A.
 
 B.  Boolean s=p.test(100);
     System.out.println(s);

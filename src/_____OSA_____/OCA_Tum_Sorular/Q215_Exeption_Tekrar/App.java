@@ -13,9 +13,10 @@ public class App {
              System.out.println("completed.");
          }
     }
-    public void  process() {  // line 13
+    public void  process()  {  // line 13
         System.out.println("Processed");
-//        throw new LogFileException();
+       // throw new LogFileException();
+
    }
     public void open() {  // line 17
         System.out.println("Opened.");

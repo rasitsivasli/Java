@@ -9,6 +9,7 @@ public class Q016 {
 		LocalDateTime dt = LocalDateTime.of(2014, 7, 31, 1, 1);
 		dt.plusDays(30);  // not assigned to dt, no effects on dt
 		dt.plusMonths(1);// not assigned to dt, no effects on dt
+
 		System.out.println(dt.format(DateTimeFormatter.ISO_DATE));
 	}
 }

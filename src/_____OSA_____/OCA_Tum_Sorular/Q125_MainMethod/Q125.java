@@ -1,10 +1,12 @@
 package _____OSA_____.OCA_Tum_Sorular.Q125_MainMethod;
-
 public class Q125 {
 
+     class Dog {
+        public static void main(String[] args) { // static olmadigi icin eksik
+            System.out.println("Squirrel");
+        }
 
-
-}
+}}
 /*125.	Which one of the following code examples uses valid Java syntax?
 A.
 	public static void main(String[] args) { //Answer A
@@ -17,10 +19,7 @@ B.
 			System.out.println("Chocolate");
 	}
 C.
- public class Dog {
-	public void main(String[] args) { // static olmadigi icin eksik
-			System.out.println("Squirrel");
-		}
+
 D.
 	public class Bank {
 		public static void main(String () args) { // [] yerine () oldugu icin yanlis

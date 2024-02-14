@@ -6,8 +6,11 @@ public class Q160 {
 	int	x;
 /* insert code here */
 
-
-
+		x=3;
+		do {
+			System.out.print("*");
+			x--;
+		}while (x!=1);
 	}
 }
 

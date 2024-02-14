@@ -9,10 +9,13 @@ class Person {
     }
 
     public Person(String name, int age) {    // line n2
-       // Person(name); Constructur bu sekilde cagrilmaz. Ya new keyword kullanilmali, yada this(name) ile cagirilabilir
+        //Person(name); //Constructur bu sekilde cagrilmaz. Ya new keyword kullanilmali, yada this(name) ile cagirilabilir
         setAge(age);
     }
-// getter and setter
+
+   
+
+    // getter and setter
     public String getName() {
         return name;
     }

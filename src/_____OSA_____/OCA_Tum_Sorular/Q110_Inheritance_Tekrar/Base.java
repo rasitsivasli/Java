@@ -20,13 +20,10 @@ class DerivedB extends  DerivedA{
         Base b2=new DerivedA();
         Base b3=new DerivedB();
         b1=(Base)b3;
-        DerivedA b4= (DerivedA) b3;
+        Base b4=  b3;
         b1.test();
         b4.test();
-        b2.test();
-        b3.test();
-        Base base = new Base();
-        base.test();
+
 
     }
 }

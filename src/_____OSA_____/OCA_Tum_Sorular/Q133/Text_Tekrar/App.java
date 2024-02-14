@@ -2,7 +2,7 @@ package _____OSA_____.OCA_Tum_Sorular.Q133.Text_Tekrar;
 
 //package p1;
 public class App {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Java");
     }
 }

@@ -3,6 +3,7 @@ package _____OSA_____.OCA_Tum_Sorular.Q027_Construktur_Tekrar;
 public class CheckingAccount {
 	public int amount;
 	// line n1
+
 	public CheckingAccount(){
 
 	}

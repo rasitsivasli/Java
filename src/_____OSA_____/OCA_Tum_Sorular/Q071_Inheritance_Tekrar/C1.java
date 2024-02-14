@@ -11,8 +11,8 @@ class C1 extends C2 implements I {
          C2 s = (C2) obj2;
          I t = (I) obj1;
 
-        //t.displayI();
-        //s.displayC2();
+        t.displayI();
+        s.displayC2();
 
     }
  }

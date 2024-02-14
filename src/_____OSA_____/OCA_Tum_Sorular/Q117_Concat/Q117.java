@@ -5,7 +5,7 @@ public class Q117 {
         String ta="A ";
         ta=ta.concat("B ");//A B
         String tb="C ";
-        ta=ta.concat(tb);
+        ta=ta.concat(tb);//ABC
         ta.replace('C','D');
         ta=ta.concat(tb);
         System.out.println(ta);

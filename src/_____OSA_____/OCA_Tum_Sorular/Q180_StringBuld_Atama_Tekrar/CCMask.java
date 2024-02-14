@@ -8,8 +8,10 @@ public class CCMask {
     public static String maskCC(String creditCard) {
         String x = "XXXX-XXXX-XXXX-";
 //line n1
+        StringBuilder sb = new StringBuilder(x);
+        sb.append(creditCard, 15, 19);
+        return sb.toString();
 
-        return creditCard; // bu satır yok
     }
 
     public static void main(String[] args) {

@@ -6,12 +6,14 @@ public class Q042 {
 		StringBuilder sb = new StringBuilder();
 		sb.append("A");
 		sb.append("A");
-
+		System.out.println("sb = " + sb);
+		sb. delete (0, sb. length () );
+		System.out.println("sb = " + sb);
 	}
 }
 /* 42.	Which statement will empty the contents of a StringBuilder variable named sb?
 		A.	sb. deleteAll ();
 		B.	sb. delete (0, sb. size () );
-		C.	sb. delete (0, sb. length () );
+		C.
 		D.	sb. removeAll ();
 */

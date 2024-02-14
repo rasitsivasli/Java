@@ -8,7 +8,8 @@ public class Q207 {
         arr[1]=new int[]{2,4};
 
         for (int[] a:arr){
-            for (int i = 0; i < arr[i].length; i++) {
+            for (int i = 0; i < arr[i].length; i++) {// soru sayfalardakinden farkli... bu sekilde olursa hata verir.
+                // Cunku i=2 old. yani arr[2] oldugunda arr[2]. elemani olmadigi icin hata verir
                 System.out.print(a[i]+" ");
             }
             System.out.println();

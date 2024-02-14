@@ -14,7 +14,7 @@ public class Q222 {
         Iterator<String> itr=lst.iterator();
         while(itr.hasNext()){
             String e=itr.next();
-            while (e=="CH"){
+            if (e=="CH"){
                 break;
             }
             System.out.print(e +" ");
@@ -26,6 +26,6 @@ public class Q222 {
      B. EN FR
      C. CH
      D. EN FR CH
-     Answer: B  (yanlış cevap En FR CH FR)
+     Answer: B
      */
 }
