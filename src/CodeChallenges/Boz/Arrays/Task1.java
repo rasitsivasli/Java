@@ -17,5 +17,6 @@ public class Task1 {
         System.out.println("sinifListesi = " + Arrays.toString(sinifListesi));
         System.out.println("sinifListesi = " + Arrays.toString(sinifListesi));
         System.out.println("sinifListesi = " + Arrays.toString(sinifListesi));
+        System.out.println("sinifListesi = " + Arrays.toString(sinifListesi));
     }
 }
