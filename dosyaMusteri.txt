@@ -1,0 +1,7 @@
+1*Rasit Sivasli*Kaiserslautern*rasit@gmail.com*015112345689*true
+2*Nuri Sesiguzel*Mainz*nuri@gmail.com*015112352388*true
+3*Adnan Senses*Hamburg*adnan@gmail.com*015112345679*true
+4*Ibrahim Tatlises*Luksemburg*ibrahim@gmail.com*01515234578*true
+5*Muslum Gurses*Istanbul*muslum@gmail.com*15112345678 *true
+6*selami Sahin*Koln*selami@gmail.com*123456789*true
+7*selim*qwe*dsf*34*true
