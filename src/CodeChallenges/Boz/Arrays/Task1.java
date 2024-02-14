@@ -15,5 +15,6 @@ public class Task1 {
         String[] isimler= {"ali","ayse","veli","isa","semsi"};
         sinifListesi=isimler;
         System.out.println("sinifListesi = " + Arrays.toString(sinifListesi));
+        System.out.println("sinifListesi = " + Arrays.toString(sinifListesi));
     }
 }
